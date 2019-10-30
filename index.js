@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cookieSession = require('cookie-session');
-const keys = require('./config');
+const keys = require('./keys/keys');
 const passport = require('passport');
 const app = express();
 if (process.env.NODE_ENV === 'production') {
